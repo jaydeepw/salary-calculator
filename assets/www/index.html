@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Starter Template</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+
+	<!-- Add custom CSS here -->
+	<link href="css/simple-sidebar.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div id="wrapper">
+
+		<!-- Sidebar -->
+		<div id="sidebar-wrapper">
+			<ul class="sidebar-nav">
+				<li class="sidebar-brand"><a href="#">App Name</a></li>
+				<li><h3><a id="item1" href="#">Item1</a></h3></li>
+				<li><h3><a id="item2" href="#">Item2</a></h3></li>
+				<li><h3><a id="item3" href="#">Item3</a></h3></li>
+			</ul>
+		</div>
+
+		<!-- Page content -->
+		<div id="page-content-wrapper">
+			<div class="content-header">
+				<h1>
+					<a id="menu-toggle" href="#" class="btn btn-default"><i class="glyphicon glyphicon-align-justify"></i></a>
+					Salary Calculator
+				</h1>
+			</div>
+			<!-- Keep all page content within the page-content inset div! -->
+			<div id="page-content" class="page-content inset">
+				<div class="row">
+					<div class="col-md-12">
+						<p class="lead">A simple salary calculator application for my HR friends.</p>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">Current CTC</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="currentSalary" placeholder="400000">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="inputPassword" class="col-sm-2 control-label">Expected CTC</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="expectedSalary" placeholder="600000">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">Hike:</label>
+						<label class="col-sm-2 control-label" id="hike"></label>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">% Hike:</label>
+						<label class="col-sm-2 control-label" id="percentHike"></label>
+					</div>
+					<div class="form-group">
+						<label for="inputPassword" class="col-sm-2 control-label">Take home(incl. taxes)</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="takeHome" placeholder="50000">
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- JavaScript -->
+	<script src="js/jquery-1.10.2.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/calculator.js"></script>
+
+	<!-- Custom JavaScript for the Menu Toggle -->
+	<script>
+
+		/*$("#menu-toggle").click(function(e) {
+		e.preventDefault();
+		$("#wrapper").toggleClass("active");
+	});
+
+	$("#item1").click(function(e) {
+		e.preventDefault();
+		$("#item1-data").show();
+		$("#item2-data").hide();
+		$("#item3-data").hide();
+
+		$("#wrapper").removeClass("active");
+	});
+
+	$("#item2").click(function(e) {
+		e.preventDefault();
+		$("#item1-data").hide();
+		$("#item2-data").show();
+		$("#item3-data").hide();
+
+		$("#wrapper").removeClass("active");
+	});
+
+	$("#item3").click(function(e) {
+		e.preventDefault();
+		$("#item1-data").hide();
+		$("#item2-data").hide();
+		$("#item3-data").show();
+
+		$("#wrapper").removeClass("active");
+	});
+
+	$("#page-content").click(function(e) {
+		e.preventDefault();
+
+		$("#wrapper").removeClass("active");
+	});*/
+
+	</script>
+</body>
+</html>
